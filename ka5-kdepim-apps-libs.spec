@@ -18,11 +18,16 @@ BuildRequires:	Qt5Test-devel
 BuildRequires:	Qt5Widgets-devel
 BuildRequires:	cmake >= 2.8.12
 BuildRequires:	gettext-devel
+BuildRequires:	gpgme-c++-devel
+BuildRequires:	gpgme-qt5-devel
 BuildRequires:	grantlee-qt5-devel >= 5.1
 BuildRequires:	ka5-akonadi-contacts-devel >= %{kdeappsver}
 BuildRequires:	ka5-akonadi-devel >= %{kdeappsver}
 BuildRequires:	ka5-grantleetheme-devel >= %{kdeappsver}
 BuildRequires:	ka5-grantleetheme-devel >= %{kdeappsver}
+BuildRequires:	ka5-kcontacts-devel >= %{kframever}
+BuildRequires:	ka5-kimap-devel >= %{kframever}
+BuildRequires:	ka5-kmime-devel >= %{kframever}
 BuildRequires:	ka5-libkdepim-devel >= %{kdeappsver}
 BuildRequires:	ka5-libkleo-devel >= %{kdeappsver}
 BuildRequires:	ka5-pimcommon-devel >= %{kdeappsver}
@@ -33,6 +38,7 @@ BuildRequires:	kf5-kcoreaddons-devel >= %{kframever}
 BuildRequires:	kf5-ki18n-devel >= %{kframever}
 BuildRequires:	kf5-kiconthemes-devel >= %{kframever}
 BuildRequires:	kf5-kio-devel >= %{kframever}
+BuildRequires:	kf5-kitemmodels-devel >= %{kframever}
 BuildRequires:	kf5-kservice-devel >= %{kframever}
 BuildRequires:	kf5-kwidgetsaddons-devel >= %{kframever}
 BuildRequires:	kf5-prison-devel >= %{kframever}

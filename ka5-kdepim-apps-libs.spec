@@ -18,8 +18,7 @@ BuildRequires:	Qt5Test-devel
 BuildRequires:	Qt5Widgets-devel
 BuildRequires:	cmake >= 2.8.12
 BuildRequires:	gettext-devel
-BuildRequires:	gpgme-c++-devel
-BuildRequires:	gpgme-qt5-devel
+BuildRequires:	gpgmepp-devel
 BuildRequires:	grantlee-qt5-devel >= 5.1
 BuildRequires:	ka5-akonadi-contacts-devel >= %{kdeappsver}
 BuildRequires:	ka5-akonadi-devel >= %{kdeappsver}
@@ -43,6 +42,7 @@ BuildRequires:	kf5-kservice-devel >= %{kframever}
 BuildRequires:	kf5-kwidgetsaddons-devel >= %{kframever}
 BuildRequires:	kf5-prison-devel >= %{kframever}
 BuildRequires:	ninja
+BuildRequires:	qgpgme-qt5-devel
 BuildRequires:	qt5-build >= %{qtver}
 BuildRequires:	rpmbuild(macros) >= 1.164
 BuildRequires:	shared-mime-info
